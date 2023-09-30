@@ -3,4 +3,9 @@
     <string name="app_name">avaliacao01</string>
     <string name="buttonMale_txt">Masculino</string>
     <string name="buttonFamele_txt">Feminino</string>
+    <string name="about_txt">Sobre</string>
+    <string name="historic_txt">Histórico</string>
+    <string name="monitor_exercise_txt">Monitorar exercício</string>
+    <string name="settings_txt">Configuração</string>
+    <string name="user_profile_txt">Perfil do usuário</string>
 </resources>

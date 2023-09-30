@@ -2,5 +2,9 @@
     <string name="app_name">avaliacao01</string>
     <string name="buttonMale_txt">Male</string>
     <string name="buttonFamele_txt">Famele</string>
-    <string name="buttonGrup_txt">Grupo de botão</string>
+    <string name="about_txt">About</string>
+    <string name="historic_txt">Historic</string>
+    <string name="monitor_exercise_txt">Monitor exercise</string>
+    <string name="settings_txt">Settings</string>
+    <string name="user_profile_txt">User profile</string>
 </resources>
