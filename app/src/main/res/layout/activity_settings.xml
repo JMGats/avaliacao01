@@ -1,9 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".settings">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/ReturnButton"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:padding="4dp"
+        android:text="Retornar"
+        app:iconPadding="20dp"
+        android:onClick="goToMain"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de exercício:" />
+
+    <RadioGroup
+        android:id="@+id/GroupExerciseType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/ButtonWalking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caminhada" />
+
+        <RadioButton
+            android:id="@+id/ButtonRunning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Corrida" />
+
+        <RadioButton
+            android:id="@+id/ButtonCycling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bicicleta" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unidade de velocidade:" />
+
+    <RadioGroup
+        android:id="@+id/GroupSpeedUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/ButtonKmph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="km/h (quilômetro por hora)" />
+
+        <RadioButton
+            android:id="@+id/ButtonMps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="m/s (metros por segundo)" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orientação do Mapa:" />
+
+    <RadioGroup
+        android:id="@+id/GroupMapOrientation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/ButtonManualOrientation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nenhuma (O usuário pode escolher manualmente a orientação do mapa)" />
+
+        <RadioButton
+            android:id="@+id/ButtonNorthUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="North Up (Norte do mapa alinhado com o topo do dispositivo)" />
+
+        <RadioButton
+            android:id="@+id/ButtonCourseUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Up (Topo do mapa alinhado com a direção do deslocamento)" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo do Mapa:" />
+
+    <RadioGroup
+        android:id="@+id/GroupMapType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/ButtonVectorMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vetorial" />
+
+        <RadioButton
+            android:id="@+id/ButtonSatelliteMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satélite" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonSaveSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Salvar Configurações" />
+
+</LinearLayout>

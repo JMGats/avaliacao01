@@ -4,54 +4,95 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".user_profile">
+    tools:context=".user_profile"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="-93dp">
 
 
-    <Spinner
-        android:id="@+id/spinner3"
-        android:layout_width="242dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="85dp"
-        android:layout_marginTop="142dp"
-        android:layout_marginEnd="85dp"
-        app:layout_constraintEnd_toEndOf="parent"
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="412dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/ReturnUser"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="Masculino"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="128dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="16dp"
+            android:text="Feminino"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="1dp"
+            tools:visibility="visible" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:hint="Altura (cm)"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/ReturnUser"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <EditText
+        android:id="@+id/editTextBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:hint="Data de Nascimento (DD/MM/AAAA)"
+        app:layout_constraintTop_toBottomOf="@+id/editTextWeight"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:hint="Peso (kg)"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/editTextHeight"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="206dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="56dp"
+        android:background="@color/design_default_color_secondary"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:foregroundTint="@color/design_default_color_secondary"
+        android:text="Salvar"
+        android:textColorHighlight="#DA0000"
+        android:textColorLink="#DD9C9C"
+        android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBirthDate"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/ReturnUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:onClick="goToMain"
+        android:text="Return"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteX="16dp" />
 
-    <TextView
-        android:id="@+id/textView_peso"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="26dp"
-        android:layout_marginEnd="100dp"
-        android:text="peso"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner3" />
 
-    <TextView
-        android:id="@+id/textView_altura"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="100dp"
-        android:text="Altura"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_peso" />
-
-    <TextView
-        android:id="@+id/textView_data_nascimento"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="100dp"
-        android:text="Data nascimento"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_altura" />
 </androidx.constraintlayout.widget.ConstraintLayout>
