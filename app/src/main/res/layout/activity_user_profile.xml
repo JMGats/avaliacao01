@@ -23,7 +23,7 @@
             android:layout_width="146dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
-            android:text="Masculino"
+            android:text="@string/buttonMale_txt"
             tools:layout_editor_absoluteX="1dp" />
 
         <RadioButton
@@ -31,7 +31,7 @@
             android:layout_width="128dp"
             android:layout_height="68dp"
             android:layout_marginTop="16dp"
-            android:text="Feminino"
+            android:text="@string/buttonFamele_txt"
             android:visibility="visible"
             tools:layout_editor_absoluteX="1dp"
             tools:visibility="visible" />
@@ -42,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="176dp"
-        android:hint="Altura (cm)"
+        android:hint="@string/height_txt"
         android:inputType="numberDecimal"
         app:layout_constraintTop_toBottomOf="@+id/ReturnUser"
         tools:layout_editor_absoluteX="1dp" />
@@ -52,7 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:hint="Data de Nascimento (DD/MM/AAAA)"
+        android:hint="@string/Date_of_birth_txt"
         app:layout_constraintTop_toBottomOf="@+id/editTextWeight"
         tools:layout_editor_absoluteX="1dp" />
 
@@ -61,7 +61,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:hint="Peso (kg)"
+        android:hint="@string/weight_txt"
         android:inputType="numberDecimal"
         app:layout_constraintTop_toBottomOf="@+id/editTextHeight"
         tools:layout_editor_absoluteX="1dp" />
@@ -76,7 +76,7 @@
         android:background="@color/design_default_color_secondary"
         android:backgroundTint="@color/design_default_color_secondary"
         android:foregroundTint="@color/design_default_color_secondary"
-        android:text="Salvar"
+        android:text="@string/save_txt"
         android:textColorHighlight="#DA0000"
         android:textColorLink="#DD9C9C"
         android:visibility="visible"
@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
         android:onClick="goToMain"
-        android:text="Return"
+        android:text="@string/return_txt"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
