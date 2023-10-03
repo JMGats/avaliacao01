@@ -6,4 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".About">
 
+    <Button
+        android:id="@+id/returnUser3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:onClick="goToMain"
+        android:text="Return"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,4 +7,25 @@
     <string name="monitor_exercise_txt">Monitor exercise</string>
     <string name="settings_txt">Settings</string>
     <string name="user_profile_txt">User profile</string>
+    <string name="height_txt">Height</string>
+    <string name="weight_txt">Weight</string>
+    <string name="Date_of_birth_txt">Date of birth</string>
+    <string name="save_txt">save</string>
+    <string name="race_txt">race</string>
+    <string name="walk_txt">walk</string>
+    <string name="bicycle_txt">bicycle</string>
+    <string name="km_txt">km/h (kilometer per hour)</string>
+    <string name="Type_exercise_txt">Type of exercise:</string>
+    <string name="Speed_unit_txt">Speed unit:</string>
+    <string name="return_txt">Return</string>
+    <string name="meters_txt">m/s (meters per second)</string>
+    <string name="Map_Orientation_txt">Map Orientation:</string>
+    <string name="none_txt">None (User can manually choose map orientation)</string>
+    <string name="NorthUp_txt">North Up (North of the map aligned with the top of the device)</string>
+    <string name="CourseUp_txt">Course Up (Top of the map aligned with the direction of the course)</string>
+    <string name="MapType_txt">Map Type:</string>
+    <string name="vector_txt">vector</string>
+    <string name="Satellite_txt">Satellite</string>
+    <string name="SaveSettings_txt">Save Settings</string>
+
 </resources>

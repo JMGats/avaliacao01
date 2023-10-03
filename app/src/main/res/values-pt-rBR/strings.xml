@@ -8,4 +8,24 @@
     <string name="monitor_exercise_txt">Monitorar exercício</string>
     <string name="settings_txt">Configuração</string>
     <string name="user_profile_txt">Perfil do usuário</string>
+    <string name="height_txt">Altura</string>
+    <string name="weight_txt">Peso</string>
+    <string name="Date_of_birth_txt">Data de Nascimento</string>
+    <string name="save_txt">Salvar</string>
+    <string name="race_txt">corrida</string>
+    <string name="walk_txt">"caminhada "</string>
+    <string name="bicycle_txt">bicicleta</string>
+    <string name="km_txt">km/h (quilômetro por hora)</string>
+    <string name="Type_exercise_txt">Tipo de exercício:</string>
+    <string name="Speed_unit_txt">Unidade de velocidade:</string>
+    <string name="return_txt">"Retornar "</string>
+    <string name="meters_txt">m/s (metros por segundo)</string>
+    <string name="Map_Orientation_txt">Orientação do Mapa:</string>
+    <string name="none_txt">Nenhuma (O usuário pode escolher manualmente a orientação do mapa)</string>
+    <string name="NorthUp_txt">Norte em cima (Norte do mapa alinhado com o topo do dispositivo)</string>
+    <string name="CourseUp_txt">Course Up (Topo do mapa alinhado com a direção do direção)</string>
+    <string name="MapType_txt">Tipo do Mapa:</string>
+    <string name="vector_txt">vetorial</string>
+    <string name="Satellite_txt">Satélite</string>
+    <string name="SaveSettings_txt">Salvar Configurações</string>
 </resources>
