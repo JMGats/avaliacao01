@@ -18,7 +18,7 @@
     <string name="Type_exercise_txt">Type of exercise:</string>
     <string name="Speed_unit_txt">Speed unit:</string>
     <string name="return_txt">Return</string>
-    <string name="aboutText_txt">App made by Pedro Rabelo and João Marcos - 2023.</string>
+    <string name="aboutText_txt">App made by Pedro Rabelo, Cauã Marcus and João Marcos - 2023.</string>
     <string name="meters_txt">m/s (meters per second)</string>
     <string name="Map_Orientation_txt">Map Orientation:</string>
     <string name="none_txt">None (User can manually choose map orientation)</string>

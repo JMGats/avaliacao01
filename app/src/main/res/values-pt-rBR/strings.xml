@@ -16,7 +16,7 @@
     <string name="walk_txt">"caminhada "</string>
     <string name="bicycle_txt">bicicleta</string>
     <string name="km_txt">km/h (quilômetro por hora)</string>
-    <string name="aboutText_txt">App feito por Pedro Rabelo e João Marcos - 2023.</string>
+    <string name="aboutText_txt">App feito por Pedro Rabelo, Cauã Marcus e João Marcos - 2023.</string>
     <string name="Type_exercise_txt">Tipo de exercício:</string>
     <string name="Speed_unit_txt">Unidade de velocidade:</string>
     <string name="return_txt">"Retornar "</string>
