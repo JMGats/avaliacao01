@@ -24,7 +24,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToAbout(View view) {
-        Intent intent = new Intent(this, About.class);
+        Intent intent = new Intent(this, about.class);
+        startActivity(intent);
+    }
+    public void goMonitorExercise(View view) {
+        Intent intent = new Intent(this, monitor_exercise.class);
         startActivity(intent);
     }
 
