@@ -77,7 +77,10 @@ public class monitor_exercise extends AppCompatActivity implements View.OnClickL
         }
         tv_ll.setText(mens);
     }
-
+    public void goMapsActivity(View view) {
+        Intent intent = new Intent(this, MapsActivity.class);
+        startActivity(intent);
+    }
     public void goToMain(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
