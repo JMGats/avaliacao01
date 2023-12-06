@@ -28,5 +28,6 @@
     <string name="vector_txt">vector</string>
     <string name="Satellite_txt">Satellite</string>
     <string name="SaveSettings_txt">Save Settings</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
 </resources>
